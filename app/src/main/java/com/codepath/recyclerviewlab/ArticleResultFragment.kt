@@ -45,6 +45,7 @@ class ArticleResultFragment: Fragment() {
         Log.d("ArticleResultFragment", "loading articles for query $query")
         Toast.makeText(context, "Loading articles for \'$query\'", Toast.LENGTH_SHORT).show()
         // TODO(Checkpoint 3): Implement this method to populate articles
+
     }
 
     private fun loadArticlesByPage(page: Int) {
